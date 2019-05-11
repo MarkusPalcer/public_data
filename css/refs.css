@@ -3,7 +3,6 @@ body {
     color: white;
     font-family: sans-serif;
     max-width: 15cm;
-    /*text-align: justify;*/
 }
 
 body > ul {
@@ -34,19 +33,6 @@ body > ul > li > ul > li > a:last-of-type::after {
     white-space: pre;
 }
 
-#link-legend {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-img.icon {
-    height: 1em;
-}
-
-#link-legend img {
-    margin: 0.5em 0.4ex 0em 0em;
-}
-
 .content-warnings {
     font-weight: bold;
 }
@@ -75,4 +61,29 @@ body > ul > li > ul > li > p {
 .title::after {
     content: '\A';
     white-space: pre;
+}
+
+.links {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.links::before {
+    content: 'Links: '
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+.links img {
+    margin-right: 1ex;
+    max-width: 1em;
+    max-height: 1em;
+}
+
+.links li {
+    margin: 0.2em 0px;
 }

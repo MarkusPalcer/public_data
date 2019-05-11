@@ -4,9 +4,19 @@
     	details.css('display', value ? '' : 'none');
     };
 
-    var targets = {
-        'furaffinity': 'images/furaffinity.ico',
-        'inkbunny': 'images/inkbunny.ico'
+    var hosts = {
+        'www.furaffinity.net': {
+            'icon': 'images/furaffinity.ico',
+            'name': 'FurAffinity'
+        },
+        'www.inkbunny.net': { 
+            'icon': 'images/inkbunny.ico', 
+            'name': 'Inkbunny'
+        },
+        'inkbunny.net': {
+            'icon': 'images/inkbunny.ico', 
+            'name': 'Inkbunny'            
+        }
     };
 
     var content_warnings = {
@@ -33,16 +43,16 @@
 
         $('#link-legend').css('display','');
 
-        $('a').each(function(index, element) {
-            if (element.hasAttribute('data-target')) {
-                var target = $(element).attr('data-target');
-                var icon = targets[target];
+        $('.links a').each(function(index, element) {
+            var host = hosts[element.hostname];
+            if (host !== null) {
                 $(element).empty();
                 var newIcon = $('<img />');
-                newIcon.attr('src', icon);
+                newIcon.attr('src', host['icon']);
                 newIcon.addClass('icon');
-                $(element).append(newIcon);
-            } 
+                $(element).prepend(newIcon);
+                $(element).append(host['name'])
+            }
         });        
 
         $('[data-warning-tags]').each(function(index, element) {
