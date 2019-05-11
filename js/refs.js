@@ -11,7 +11,9 @@
 
     var content_warnings = {
         'cbt': 'https://en.wikipedia.org/wiki/Cock_and_ball_torture',
-        'bdsm': 'https://en.wikipedia.org/wiki/BDSM'
+        'bdsm': 'https://en.wikipedia.org/wiki/BDSM',
+        'spanking': 'https://en.wikipedia.org/wiki/Erotic_spanking',
+        'chastity': 'https://en.wikipedia.org/wiki/Chastity_belt_(BDSM)'
     };
 
     $(document).ready(function() {
@@ -43,8 +45,8 @@
             } 
         });        
 
-        $('.content-warnings').each(function(index, element) {
-            var tags = $(element).text().split(', ');
+        $('[data-warning-tags]').each(function(index, element) {
+            var tags = $(element).attr('data-warning-tags').split(', ');
             $(element).empty();
             $.each(tags, function(index, item) {
                 var link = $('<a />');
@@ -54,6 +56,10 @@
                 $(element).append(link);
                 $(element).append(' ');
             });
+            var image = $('<img />');
+            image.attr('src', 'images/warning.png');
+            $(element).prepend(image);
+
         });
     });
 })();   
