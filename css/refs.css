@@ -1,0 +1,69 @@
+body > ul {
+    list-style-type: "▶ ";
+}
+
+body > ul > li > ul {
+    list-style-type: "● ";
+    margin-top: 1ex;
+}
+
+body > ul > li > ul > li {
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+}
+
+.section {
+    border-bottom: 1px dotted;
+    font-weight: bold;
+}
+
+body > ul > li > ul > li > :first-child {
+    font-weight: bold;
+}
+
+body > ul > li > ul > li > a:last-of-type::after {
+    content: "\A";
+    white-space: pre;
+}
+
+#link-legend {
+    border: 1px solid;
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    padding: 15px;
+}
+
+img.icon {
+    height: 1em;
+}
+
+#link-legend img {
+    margin: 0.5em 0.4ex 0em 0em;
+}
+
+.content-warnings {
+    font-weight: bold;
+}
+
+.content-warnings::before {
+    content: url(../images/warning.png);
+    margin-right: 0.5em;
+}
+
+.content-warnings::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.content-warnings a {
+    text-decoration: none;
+    color: black;
+    border-bottom: dotted 1px;
+}
+
+.title::after {
+    content: ' Links: ';
+    font-weight: normal;
+    margin-left: 1ex;
+}
