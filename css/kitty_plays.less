@@ -1,0 +1,155 @@
+body {
+  background-image: url('../images/fur.jpg');
+  background-repeat: repeat;
+  color: #ffef85;
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: solid 1px #ffef85;
+}
+
+a {
+  color: #ffef85;
+
+  &:visited {
+    color: #ffef85;
+  }
+
+  &:hover {
+    color: #ffef85;
+  }
+}
+
+#content {
+  #controls {
+    margin-bottom: 10px;
+    float: none;
+  }
+
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#content[data-displaystyle="table"] {
+  .grid {
+    display: none;
+  }
+
+  .image {
+    float: left;
+    margin-right: 10px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .language {
+    img {
+      height: 32px;
+      width: 32px;
+    }
+  }  
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+#content[data-displaystyle="grid"] {
+  .table {
+    display: none;
+  }
+
+  > div {
+    float: left;
+    margin-right: 10px;
+    width: 250px;
+  }
+
+  .image {
+    img {
+      width: 250px;
+    }
+  }
+
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .language {
+    img {
+      height: 32px;
+      width: 32px;
+    }
+
+    float: left;
+    width: 40px;
+  }  
+}
+
+input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+
+  + label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 5px;
+    padding-bottom: 2px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 0px;
+    margin-left: -2px;
+
+    > .iconic {
+      height: 16px;
+      width: 16px;
+      > * {
+        fill: #444;
+        stroke: #444;
+      }
+    }
+  }
+}
+
+input[type="radio"].first + label {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  margin-left: 0px;
+}
+
+input[type="radio"].last + label {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin-right: 10px;
+}
+
+input[type="radio"]:checked + label {
+  background-color:#bfb;
+  border-color: rgb(33, 100, 33);
+
+  > .iconic * {
+    fill:  rgb(33, 100, 33);
+    stroke:  rgb(33, 100, 33);
+  }
+}
+
+input[type="radio"]:focus + label {
+  border: 1px dashed #444;
+}

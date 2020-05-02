@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A list of what the kitty played</title>
+    <meta charset="utf-8"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/kitty_plays.js"></script>
+    <link rel="stylesheet/less" type="text/css" href="css/kitty_plays.less" />
+    <link rel="icon" href="images/kitty_plays_favicon.png" type="icon/png" />
+
+    <script src="js/less.js"></script>
+    <script src="js/iconic.min.js"></script>
+  </head>
+  <body>
+    <h1>A list of what the kitty played</h1>
+
+    <section id="content" data-displaystyle="table">
+      <div id="controls" >
+        <div>
+          <input type="radio" id="displaystyle_table" name="displaystyle" value="table" class="first" checked />
+          <label for="displaystyle_table"><img class="iconic" data-src="images/iconic/list-rich.svg" /></label>
+
+          <input type="radio" id="displaystyle_grid" name="displaystyle" value="grid" class="last" />
+          <label for="displaystyle_grid"><img class="iconic" data-src="images/iconic/grid.svg" /></label>
+        </div>
+      </div>
+      <div id="template">
+        <div class="table">
+          <a>
+            <div class="image"><img /></div>
+            <div class="name"></div>
+            <div class="language"><img /></div>
+            <div class="clearfix"></div>
+          </a>
+        </div>        
+        <div class="grid">
+          <a>
+            <div class="image"><img /></div>
+            <div class="language"><img /></div>
+            <div class="name"></div>
+          </a>
+        </div>
+        <hr class="table" />
+      </div>
+
+      <!-- JS will add content here -->
+    </section>
+  </body>
+</html>
