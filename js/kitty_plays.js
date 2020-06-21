@@ -27,6 +27,18 @@
       $(newItem).find('a').attr('href', element.link);
       $(newItem).find('.language img').attr('src', 'images/flags/' + element.language + '.svg');
 
+      if (element.links) {
+        var linksElement = $(newItem).find('.links');
+
+        element.links.forEach(link => {
+          var linkItem = $('<a />');
+          linkItem.addClass('link');
+          linkItem.attr('href', link.link);
+          linkItem.text(link.name);
+          linksElement.append(linkItem);
+        });
+      }
+
       $('#content').append(newItem);
     });
 
