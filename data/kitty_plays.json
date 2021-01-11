@@ -25,5 +25,11 @@
     "links": [
       { "name": "List of used mods", "link": "kitty_plays/morrowind_mods.htm" }
     ]
-  }
+  },
+  { 
+    "name": "Half Life",
+    "language": "DE",
+    "link": "https://www.youtube.com/playlist?list=PL7fRliK7MXx1ZDY1rk8EMPTrKNVFTRIUO",
+    "image": "https://i.ytimg.com/vi/43UL9UJR2AM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD22MpAAXhvRdxctrmJAOA3hkn0jA"
+  }  
 ]
