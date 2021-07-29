@@ -34,8 +34,14 @@
   },
   { 
     "name": "Medieval Dynasty",
-    "language": "EN",
+    "language": "GB",
     "link": "https://www.youtube.com/playlist?list=PL7fRliK7MXx0RMpWGhpFTJacZ9SOjZmIy",
     "image": "https://i.ytimg.com/vi/8Sa-fugoahQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBMNlXPTbRmkMKqJSYKi_0ASi3HwQ"
-  }    
+  },
+  { 
+    "name": "Eternal Darkness",
+    "language": "DE",
+    "link": "https://www.youtube.com/playlist?list=PL7fRliK7MXx2eFSCRoCvuVCOoDLUbB2Rr",
+    "image": "https://i.ytimg.com/vi/d_IPkisA6lI/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDlWMiBt6CxFmSOX-4xOoUakZsg3Q"
+  }  
 ]
