@@ -14,8 +14,8 @@
   { 
     "name": "The Elder Scrolls III: Morrowind",
     "language": "GB",
-    "link": "https://www.youtube.com/playlist?list=PL7fRliK7MXx0EQEDWR_KIu4_i_XXHNlt6",
-    "image": "https://i.ytimg.com/vi/tObx_LlGFS8/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBRbCMr3ICWDY56sY5VUmtppzLhnQ",
+    "link": "https://peertube.nighty.name/my-library/video-playlists/4c86ad4d-a35c-41eb-bdba-ee0c9f0722c6",
+    "image": "https://peertube.nighty.name/static/thumbnails/playlist-76c24e2e-ed3b-40b2-ab1d-d46b33c178b0.jpg",
     "links": [
       { "name": "List of used mods", "link": "kitty_plays/morrowind_mods.htm" }
     ]
@@ -23,25 +23,31 @@
   { 
     "name": "Half Life",
     "language": "DE",
-    "link": "https://www.youtube.com/playlist?list=PL7fRliK7MXx1ZDY1rk8EMPTrKNVFTRIUO",
-    "image": "https://i.ytimg.com/vi/43UL9UJR2AM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLD22MpAAXhvRdxctrmJAOA3hkn0jA"
+    "link": "https://peertube.nighty.name/my-library/video-playlists/be79fc9b-4292-4ed6-8c6f-6981b1963758",
+    "image": "https://peertube.nighty.name/static/thumbnails/playlist-ad2fbf43-cf66-4529-8b45-1e11518a7847.jpg"
   },
   { 
-    "name": "Medieval Dynasty",
-    "language": "GB",
-    "link": "https://www.youtube.com/playlist?list=PL7fRliK7MXx0RMpWGhpFTJacZ9SOjZmIy",
-    "image": "https://i.ytimg.com/vi/8Sa-fugoahQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBMNlXPTbRmkMKqJSYKi_0ASi3HwQ"
+    "name": "Half Life Opposing Force",
+    "language": "DE",
+    "link": "https://peertube.nighty.name/my-library/video-playlists/97b77d80-f6aa-42ce-8bbd-d52d26d75dd7",
+    "image": "https://peertube.nighty.name/static/thumbnails/playlist-fe7de4bc-7dd4-46b3-9978-e55c0ba45cd4.jpg"
   },
+  { 
+    "name": "Half Life Blue Shift",
+    "language": "DE",
+    "link": "https://peertube.nighty.name/my-library/video-playlists/a9e46db3-b188-4641-b4b9-750575cc2ee3",
+    "image": "https://peertube.nighty.name/static/thumbnails/playlist-d5e1dc6e-85a6-4ee4-bd31-69724db1c30e.jpg"
+  },  
   { 
     "name": "Eternal Darkness",
     "language": "DE",
-    "link": "https://www.youtube.com/playlist?list=PL7fRliK7MXx2eFSCRoCvuVCOoDLUbB2Rr",
-    "image": "https://i.ytimg.com/vi/d_IPkisA6lI/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDlWMiBt6CxFmSOX-4xOoUakZsg3Q"
+    "link": "https://peertube.nighty.name/my-library/video-playlists/f162b4f5-9433-4c36-9033-a54b952218ee",
+    "image": "https://peertube.nighty.name/static/thumbnails/playlist-faacbee8-593b-4794-ba06-c88555b6440f.jpg"
   },
   { 
     "name": "Albion",
     "language": "DE",
-    "link": "https://studio.youtube.com/channel/UCZ_pLyY9agwkAS2S_JWQkVQ/playlists",
-    "image": "https://i.ytimg.com/vi/8biaHbyJs1E/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDkgGSIDY3ivWhsU3mt03FO-qTCrA"
+    "link": "https://peertube.nighty.name/my-library/video-playlists/27446034-4a4b-4e06-958b-67a2b60ea116",
+    "image": "https://peertube.nighty.name/static/thumbnails/playlist-5fbfb174-fd36-41a8-a288-98330f95bcba.jpg"
   }  
 ]
